@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.VipStudentGo"
+    android:background="@mipmap/go">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="出入登记管理"
+        android:textColor="#FF4500"
+        android:background="@drawable/btg_1"
+        android:gravity="center"
+        android:textSize="40dp" >
+    </TextView>
+
+    <LinearLayout
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="姓名:"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/register_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入姓名"
+             />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginLeft="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="性别："
+            android:textSize="25dp" />
+
+        <RadioGroup
+            android:id="@+id/register_sex"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:id="@+id/btn_male"
+                android:text="男"
+             />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="false"
+                android:id="@+id/btn_female"
+                android:text="女"
+                />
+
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学号:"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/register_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入学号"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="电话:"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/register_phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入电话"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="学院:"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/register_xueyuan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入学院"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="班级:"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/register_class"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入班级"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="宿舍:"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/register_room"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入宿舍"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="出去时间:"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/go_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="例如：06-18"
+            android:textSize="20dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="目的地:"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/destination"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="例如：南京"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginLeft="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="归来时间:"
+            android:textSize="25dp" />
+
+        <EditText
+            android:id="@+id/back_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="例如：06-18"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="120dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_reg_save"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="保存"
+            android:textSize="30dp" />
+        <Button
+            android:id="@+id/btn_reg_return"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="返回"/>
+    </LinearLayout>
+
+</LinearLayout>

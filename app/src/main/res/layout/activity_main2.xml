@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.Main2Activity"
+    android:orientation="vertical">
+
+
+    <!--存放framgment布局-->
+    <LinearLayout
+        android:id="@+id/content_layout3"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="0dp"
+        android:layout_weight="1">
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+
+        <RadioGroup
+            android:id="@+id/btn_group3"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#F5FFFA">
+
+            <RadioButton
+                android:checked="true"
+                android:id="@+id/btn_firpge2"
+                android:text="首页"
+                android:drawableTop="@drawable/tab_mune_firstpage"
+                style="@style/tab_menu_item" />
+
+            <RadioButton
+                android:checked="false"
+                android:id="@+id/btn_stu_manage2"
+                android:text="学生信息管理"
+                android:drawableTop="@drawable/tab_mune_student_administration"
+                style="@style/tab_menu_item"
+                />
+
+        </RadioGroup>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+
+
+
+

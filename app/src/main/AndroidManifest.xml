@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.homework">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".ui.StudentInfoActivity"></activity>
+        <activity android:name=".ui.SafCountActivyty" />
+        <activity android:name=".ui.InfoActivity" />
+        <activity android:name=".ui.HelpActivity" />
+        <activity android:name=".ui.AlterInfoActivity" />
+        <activity android:name=".ui.AlterCountActivity" />
+        <activity android:name=".ui.AboutActivity" />
+        <activity android:name=".ui.GodActivity" />
+        <activity android:name=".ui.GodManageActivity" />
+        <activity android:name=".ui.UpdateActivity" />
+        <activity android:name=".ui.SearchActivity" />
+        <activity android:name=".ui.StudentStayChaActivity" />
+        <activity android:name=".ui.RoomSelectChaActivity" />
+        <activity android:name=".ui.RoomSelectActivity" />
+        <activity android:name=".ui.VipSignInActivity" />
+        <activity android:name=".ui.StudentSignInActivity" />
+        <activity android:name=".ui.VipStudentGo" />
+        <activity android:name=".ui.VipStudentActivity" />
+        <activity android:name=".ui.StudentStayActivity" />
+        <activity android:name=".ui.Main2Activity" />
+        <activity android:name=".ui.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ui.MainActivity" />
+    </application>
+
+</manifest>

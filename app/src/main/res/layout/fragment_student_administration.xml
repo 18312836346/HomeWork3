@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.StudentAdministrationFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="南工院"
+        android:textSize="20dp"/>
+        <Button
+            android:id="@+id/search_student"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="查找学生个人信息"
+            android:textSize="20dp"
+            android:background="@drawable/btg_4"/>
+    <GridView
+        android:layout_marginTop="20dp"
+        android:numColumns="2"
+        android:gravity="center"
+        android:stretchMode="columnWidth"
+        android:id="@+id/gridView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </GridView>
+    </LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="app_name">HomeWork</string>
+
+    <string name="name">姓名：</string>
+    <string name="alter">修改密码</string>
+    <string name="alterpassword">修改密码</string>
+
+    <string-array name="sex">
+        <item>男</item>
+        <item>女</item>
+    </string-array>
+
+    <string name="sex_prompt">请选择性别</string>
+</resources>
